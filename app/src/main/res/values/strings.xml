@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    /**************Button Landing page************/
+    <string name="button_sign_up">Register</string>
+    <string name="button_sign_in">Login</string>
+    <string name="button_confirm_forget">Confirm</string>
+    /**********************************************/
+
+    /******************Hint edittext*****************/
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgetpassword">Phone number or email</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="id">Identification number</string>
+    /************************************************/
+
+    /*****************Hint textview******************/
+    <string name="forget_password">Forget password?</string>
+    <string name="textview_forget">Forget password?</string>
+    /************************************************/
+
+    /******************Menu title**********************/
+    <string name="menu_1">Product</string>
+    <string name="menu_2">Profile</string>
+    <string name="menu_3">Registrator</string>
+    <string name="menu_4">Sign Out</string>
+    /**************************************************/
+</resources>

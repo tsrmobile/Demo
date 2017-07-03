@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    /**************Button Landing page************/
+    <string name="button_sign_up">สมัครสมาชิก</string>
+    <string name="button_sign_in" >เข้าสู่ระบบ</string>
+    <string name="button_confirm_forget">ยืนยัน</string>
+    /**********************************************/
+
+    /******************Hint edittext*****************/
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="forgetpassword">เบอร์โทรศัพท์หรืออีเมล</string>
+    <string name="firstname">ชื่อจริง</string>
+    <string name="lastname">นามสกุล</string>
+    <string name="email">อีเมบ</string>
+    <string name="mobile">มือถือ</string>
+    <string name="id">เลขบัตรประชาชน</string>
+    /************************************************/
+
+    /*****************Hint textview******************/
+    <string name="forget_password">ลืมรหัสผ่าน?</string>
+    <string name="textview_forget">คุณลืมรหัสผ่านใช่มั้ย</string>
+    /************************************************/
+
+    /******************Menu title**********************/
+    <string name="menu_1">ผลิตภัณฑ์</string>
+    <string name="menu_2">โปรไฟล์</string>
+    <string name="menu_3">สมัครสมาชิก</string>
+    <string name="menu_4">ออกจากระบบ</string>
+    /**************************************************/
+</resources>
