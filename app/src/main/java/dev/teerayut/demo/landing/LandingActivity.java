@@ -10,6 +10,8 @@ import butterknife.ButterKnife;
 import dev.teerayut.demo.R;
 import dev.teerayut.demo.authentication.AuthenticationActivity;
 import dev.teerayut.demo.base.BaseMvpActivity;
+import dev.teerayut.demo.network.ConnectionDetector;
+import dev.teerayut.demo.network.NetworkErrorActivity;
 import dev.teerayut.demo.signup.SignUpActivity;
 import dev.teerayut.demo.utils.Config;
 
@@ -38,7 +40,7 @@ public class LandingActivity extends BaseMvpActivity<LandingInterface.presenter>
 
     @Override
     public void setupInstance() {
-
+        onNetworkError();
     }
 
     @Override
@@ -80,8 +82,16 @@ public class LandingActivity extends BaseMvpActivity<LandingInterface.presenter>
                     break;
                 case Config.REQUEST_SIGNUP :
                     break;
+                case Config.REQUEST_NETWORK_SETTINGS :
+                    break;
                 default:break;
             }
+        }
+    }
+
+    private void onNetworkError() {
+        if (!ConnectionDetector.isConnectingToInternet(this)) {
+            startActivityForResult(new Intent(getApplicationContext(), NetworkErrorActivity.class), Config.REQUEST_NETWORK_SETTINGS);
         }
     }
 }
